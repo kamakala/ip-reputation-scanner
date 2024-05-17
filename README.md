@@ -14,5 +14,5 @@ Register on the VirusTotal, FraudGuard and AbuseIPDB sites, get the API keys and
 
 ![image](https://github.com/kamakala/ip-reputation-scanner/assets/79987410/4e0c4692-c676-4816-9f33-2e0e599bac28)
 
-
+Tested on python 3.11
 (first version, it could be written better, sorry)
