@@ -5,7 +5,7 @@ from requests.auth import HTTPBasicAuth
 import tkinter as tk
 from tkinter import filedialog, simpledialog, messagebox
 
-# API Keys
+# API Keys for VirusTota, FraudGuard and AbuseIPDB
 vt_api = "INSERT-API-KEY-HERE"
 fg_api_user = 'INSERT-API-KEY-HERE'
 fg_api_pass = 'INSERT-API-KEY-HERE'
