@@ -47,7 +47,7 @@ def main():
     center_window(root)  # Center the main window
     root.withdraw()  # Hides the main window
 
-    choice = tk.messagebox.askyesno("Select IP", "Load IP list from csv file?")
+    choice = tk.messagebox.askyesno("Select IP", "Load IP list from csv file? Press 'No' for analysis of single IP")
 
     if choice:
         ip_list = load_ip_from_file()
