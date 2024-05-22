@@ -145,7 +145,7 @@ def main():
         if result_abuseipdb:
             blacklisted_abuseipdb.append(result_abuseipdb)
 
-    # Buduj łańcuch znaków `results`
+    # Chain of results
     results += "\nResults from VirusTotal:\n"
     for res in blacklisted_virus_total:
         results += res + "\n"
